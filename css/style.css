@@ -103,6 +103,8 @@ section
 
 .btn-inscription:hover
 {
+	width: 15%;
+	height: 55px;
 	background: #212121;
 	color: #fff;
 	border: 2px solid #fff;
