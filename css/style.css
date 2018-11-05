@@ -100,3 +100,10 @@ section
 	font-size: 14px;
 	margin-bottom: 10%;
 }
+
+.btn-inscription:hover
+{
+	background: #212121;
+	color: #fff;
+	border: 6px solid #000;
+}
