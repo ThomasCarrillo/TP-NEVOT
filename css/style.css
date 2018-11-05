@@ -7,10 +7,8 @@ body
 header{
 	width: 100%;
 	height: 100px;
-
 	background: #7D00B0;
 	font-family: 'Righteous';
-
 	display: flex;
 	justify-content: center;
 	font-size: 1.2em;
@@ -35,7 +33,8 @@ h2
 }
 
 
-.pdigme1202_12{
+.pdigme1202_12
+{
 	color: black;
 	width: 100%;
 	display: flex;
@@ -52,7 +51,6 @@ section
     column-count: 2; /* Internet Explorer */
     column-width: 50%;
     column-gap:40px;
-	
     margin: 20px 0px 20px 0px;
     text-align: justify;
 }
