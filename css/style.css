@@ -61,3 +61,39 @@ section
 	flex-direction: column;
 	padding: 20px;
 }
+.one
+{
+	width: 80%;
+	height: 10%;
+	background: #000;
+}
+.video
+{
+	display: block;
+	width: 50%;
+	height: 20%;
+	margin-left: 25%;
+	margin-bottom: 80px;
+}
+
+.formulaire
+{
+	display: none;
+}
+
+.intro-inscription
+{
+	margin-left: 20%;
+}
+
+.btn-inscription
+{
+	margin-left: 45%;
+	width: 10%;
+	height: 50px;
+	border: none;
+	border-radius: 6px;
+	background: #7D00B0;
+	color: #fff;
+	font-size: 14px;
+}
