@@ -1,3 +1,4 @@
 <footer>
-	<h1>footer</h1>
+	<h3>Contact</h3>
+	<img src="../ressources/images/twitter.jpg" title="twitter" alt="">
 </footer>
