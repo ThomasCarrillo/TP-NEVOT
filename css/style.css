@@ -61,3 +61,24 @@ section
 	flex-direction: column;
 	padding: 20px;
 }
+<<<<<<< HEAD
+.one
+{
+	width: 80%;
+	height: 10%;
+	background: #000;
+}
+.video
+{
+	display: block;
+	width: 50%;
+	height: 20%;
+	margin-left: 25%;
+	margin-bottom: 10%;
+=======
+
+video
+{
+	margin-left: 50%;
+>>>>>>> 1be90aba8adfca93b9e69684d99a2dd04a6fb26c
+}
