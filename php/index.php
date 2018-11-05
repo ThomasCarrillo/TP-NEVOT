@@ -39,6 +39,7 @@
 			</div>
 		</div>
 	</div>
+<div class="formulaire">
 	<form action="mail.php" method="post">
 		<input type="text" name="prenom">
 		<input type="radio" name="sexe" value="homme" id="homme"> <label for="oui">homme</label>
