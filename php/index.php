@@ -10,7 +10,10 @@
 </head>
 <body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1be90aba8adfca93b9e69684d99a2dd04a6fb26c
 =======
 >>>>>>> 1be90aba8adfca93b9e69684d99a2dd04a6fb26c
 	<?php include 'header.php' ?>
@@ -23,10 +26,21 @@
 				</section>
 			</div>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	</div>
 </div>
 <span class="one"></span>
 <video class="video" src="../ressources/video/Dramatic_Chipmunk.mp4" type="video/mp3" controls></video>
+=======
+			<span></span>
+			<div class="video">
+				<video src="../ressources/video/Dramatic Chipmunk.mp3" autoplay poster="posterimage.jpg">
+
+				</video>
+			</div>
+		</div>
+	</div>
+>>>>>>> 1be90aba8adfca93b9e69684d99a2dd04a6fb26c
 =======
 			<span></span>
 			<div class="video">
