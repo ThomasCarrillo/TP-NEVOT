@@ -105,5 +105,6 @@ section
 {
 	background: #212121;
 	color: #fff;
-	border: 6px solid #000;
+	border: 2px solid #fff;
+	transition: 0.3;
 }
