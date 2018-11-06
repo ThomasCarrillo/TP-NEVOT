@@ -8,9 +8,11 @@
 </head>
 <body>
 	<?php include 'header.php' ?>
-	<form action="mail.php" method="post">
+	<?php 
+		echo $_POST['nom'];
+		echo $_POST['prenom'];
+	?>
 
-	</form>
 	<?php include 'footer.php' ?>		
 </body>
 </html>
