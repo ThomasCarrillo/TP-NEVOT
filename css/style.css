@@ -44,18 +44,6 @@ h2
 	text-align: center;
 }
 
-
-.pdigme1202_12
-{
-	color: black;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	justify-content: center;
-	min-height: 50px;
-	background: white;
-}
-
 section
 {
     -webkit-column-count:4; /* Opera, Safari, Google Chrome */
@@ -65,6 +53,7 @@ section
     column-gap:40px;
     margin: 20px 0px 20px 0px;
     text-align: justify;
+    text-shadow: 3px 3px 5px #7D00B0;
 }
 
 .textIntro
@@ -80,11 +69,23 @@ section
 	width: 50%;
 	height: 20%;
 	margin: 5% 0 20px 25%;
+	transform: rotateX(40deg);
+	transform: rotateY(40deg);
+	transform: rotateZ(40deg);
+	transform: skewX(30deg);
+}
+
+.video:hover
+{
+	transition: 0.5s;
+	box-shadow: 10px 10px 5000px #7D00B0;
 }
 
 .formulaire
 {
-	display: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .intro-inscription
@@ -104,14 +105,51 @@ section
 	font-size: 14px;
 	margin-bottom: 10%;
 	transition: transform .2s;
+	transition: 0.5s ease-out;
 }
 
 .btn-inscription:hover
 {
-	width: 10.2%;
-	height: 60px;
 	background: #212121;
 	color: #fff;
 	border: 2px solid #7D00B0;
-	transform: scale(1);
+	transform: scale(1.04);
+	transition: 0.5s ease-out;
+}
+
+input{
+	border-radius: 5px; 
+	border:2px solid #202020;
+	padding: 2px;
+	margin: 2px 5px;
+	background-color: #F0F0F0;
+}
+
+.element{
+	margin: 10px auto;
+	text-align: center;
+}
+
+.one{
+	position: absolute;
+	margin-bottom: 10px;
+	padding: 1px;
+	width: 100%;
+	background-color: black;
+}
+
+hr {
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
 }
