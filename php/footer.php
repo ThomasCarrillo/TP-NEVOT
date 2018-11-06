@@ -1,4 +1,3 @@
-<footer>
+<footer class="col-s-12">
 	<h3>Contact</h3>
-	<img src="../ressources/images/twitter.jpg" title="twitter" alt="">
 </footer>
