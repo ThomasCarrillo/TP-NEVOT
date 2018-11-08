@@ -56,9 +56,56 @@ footer button
 	margin-left: 10px;
 }
 
-.social img
+.social
 {
-	max-width: 50px;
+	margin: 33px 0 0 86%;
+}
+
+.fa
+{
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+i.fa.fa-facebook::before,
+i.fa.fa-twitter::before,
+i.fa.fa-linkedin::before
+{
+	font-size: 40px;
+}
+
+.fa.fa-facebook:hover
+{
+	color: #3b5998;
+}
+
+.fa.fa-twitter:hover
+{
+	color: #00aced;
+}
+
+.fa.fa-linkedin:hover
+{
+	color: #0e76a8
+}
+
+.fa-facebook
+{
+  background: inherit;
+  color: #fff;
+}
+
+.fa-twitter
+{
+	background: inherit;
+	color: #fff;
+}
+
+.fa-linkedin
+{
+	background: inherit;
+	color: #fff;
 }
 
 h2
