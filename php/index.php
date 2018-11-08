@@ -7,6 +7,7 @@
 	<title>FormArt-In</title>
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" t href="../css/app.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- <link href="https://fonts.googleapis.com/css?family=Anton|Black+Han+Sans|Righteous" rel="stylesheet"> -->
 </head>
 <body>
@@ -41,15 +42,15 @@
 			<input type="email" name="email">
 		</div>
 		<div class="element">Mot de passe :
-			<input type="password" name="password_01"> 
+			<input type="password" name="password_01">
 		</div>
 		<div class="element"> Validation mot de passe :
 			<input type="password" name="password_02">
 		</div>
-		<div class="element">Téléphone : 
+		<div class="element">Téléphone :
 			<input type="tel" name="tel">
 		</div>
-		<div class="element">Pays : 
+		<div class="element">Pays :
 			<select name="pays">
 				<option value="france">France</option>
 				<option value="italie">Italie</option>
