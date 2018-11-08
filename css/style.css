@@ -4,7 +4,17 @@ body
 	margin: 0;
 }
 
-header{
+.logo img
+{
+	position: absolute;
+	display: block;
+	left: 2%;
+	top: 1%;
+	max-width: 80px;
+}
+
+header
+{
 	width: 100%;
 	height: 100px;
 	background: #7D00B0;
@@ -15,14 +25,21 @@ header{
 	color: #fff;
 }
 
-header em{
+header h1
+{
+	margin-top: 15px;
+}
+
+header em
+{
 	font-family: 'Black Han Sans';
 	color: #F8BF42;
 	font-size: 1.5em;
 	text-shadow: 0 0 3px #FF0000;
 }
 
-footer{
+footer
+{
 	width: 100%;
 	height: 100px;
 	background: #2E2E2E;
@@ -117,20 +134,23 @@ section
 	transition: 0.5s ease-out;
 }
 
-input{
-	border-radius: 5px; 
+input
+{
+	border-radius: 5px;
 	border:2px solid #202020;
 	padding: 2px;
 	margin: 2px 5px;
 	background-color: #F0F0F0;
 }
 
-.element{
+.element
+{
 	margin: 10px auto;
 	text-align: center;
 }
 
-.one{
+.one
+{
 	position: absolute;
 	margin-bottom: 10px;
 	padding: 1px;
@@ -138,7 +158,8 @@ input{
 	background-color: black;
 }
 
-hr {
+hr
+{
     border-top: 3px double #333;
     color: #333;
     overflow: visible;
@@ -146,7 +167,8 @@ hr {
     height: 5px;
 }
 
-hr:after {
+hr:after
+{
     background: #fff;
     content: '§';
     padding: 0 4px;
